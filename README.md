@@ -46,6 +46,27 @@
 ## Retorno
 ##### A função ```ehPrimo``` retorna ```true``` se o número fornecido for primo e ```false``` caso contrário. 
 ##### Por exemplo, ```ehPrimo(2)``` retornará ```true```, enquanto ```ehPrimo(4)``` retornará ```false```.
+# QuirkSort
+##### Este módulo exporta uma função chamada ```QuirkSort```.
+##### A função ```QuirkSort``` recebe um array como argumento e retorna o array ordenado em ordem crescente.
+## Uso
+##### Primeiro, importe o módulo em seu arquivo JavaScript:
+ ```const QuirkSort = require('./QuirkSort');```
+##### Em seguida, você pode chamar a função ```QuirkSort``` com um array como argumento:
+- ```let array = [3, 1, 4, 1, 5, 9];```
+- ```let resultado = QuirkSort(array);```
+- ```console.log(resultado);  // Isso imprimirá '[1, 1, 3, 4, 5, 9]' no console.```
+## Parâmetros
+##### A função ```QuirkSort``` aceita o seguinte parâmetro:
+- ```array:``` Um array de números.
+## Retorno
+##### A função ```QuirkSort``` retorna o array fornecido ordenado em ordem crescente.
+##### Por exemplo, ```QuirkSort([3, 2, 1]) retornará [1, 2, 3].```
+# 
+##
+##
+##
 #
-#
-#
+##
+##
+##
