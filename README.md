@@ -90,3 +90,13 @@
 ### Retorno
 ##### A função retorna um array contendo a sequência de ```fibonacci``` com o número especificado de termos.
 ###### Exemplo (12) / 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89
+
+###### - ```npm install express```
+###### - ```npm init -y```
+###### - ```npm install typescript```
+###### - ```npm install jest```
+###### - ```npm install ts-jest ```
+###### - ```npm install @types/jest```
+###### - ```npx ts-jest config:init```
+### Para executar os testes
+###### - ```npx jest```
